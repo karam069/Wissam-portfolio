@@ -1,0 +1,461 @@
+:root{
+    --text-color:#fff;
+    --main-background:#1b1f24;
+    --second-bg:#22282f;
+    --main-color:#13bbff;
+    --other-color:#c3cad5bb;
+
+    --h1-font-size: 4.5rem;
+    --h2-font: 2.9rem;
+    --p-font: 1rem
+}
+*{
+    scroll-behavior: smooth;
+}
+#color{
+    color: #13bbff;
+}
+nav{
+    background-color:var(--main-background) !important;
+    width:100%;
+}
+ul{
+    background-color: transparent !important;
+}
+.block:active{
+  color: var(--main-color) !important;
+}
+.block:hover{
+    color: var(--main-color) !important;
+}
+.header{ 
+    overflow: hidden;
+    background-image: url(../images/Final-backgeound9.webp) ;
+    width:100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1px black;
+}
+.main-h {
+    width: 100%;
+    margin-top:-35px;
+}
+
+.main-h span{
+    color:var(--main-color) !important; 
+    animation: typing 2s steps(11), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+   50%{
+      border-color: transparent;
+   }
+}
+h3{
+    color:var(--other-color) !important;
+    padding-left:80px;
+}
+i{
+    color:var(--main-color);
+    border-radius:10px;
+    border-color:var(--second-bg) !important;
+    right: 87%;
+    bottom:40%;
+    z-index: 1;
+    position: absolute;
+}
+i:hover{
+box-shadow:0 0 4px var(--other-color);
+}
+#btn1{
+    position:absolute;
+    left: 90px;
+    margin-left: 70px;
+}
+.buttons {
+    bottom:35%;
+    position:absolute;
+    border-color:var(--main-color);
+    color: var(--main-color);
+}
+.buttons a:hover{
+    box-shadow: 0 0 5px var(--main-color) !important;
+    background-color: var(--main-color);
+    color: black;
+    font-family: 'Inter';
+}
+.btn-2 {
+    margin-left: 280px;
+}
+.btn-2 a{
+     background-color: var(--main-color);
+     color:black;
+}
+.btn-2 a:hover{
+   background-color: transparent;
+   color: var(--main-color);
+}
+.buttons button{
+    margin-top:200px
+}
+.about{
+    overflow: hidden;
+    /* background-color: var(--second-bg); */
+    background-image: linear-gradient(to right, var(--second-bg), var(--main-color));
+}
+.about img{
+    border-color:var(--main-color);
+    border-radius: 50%;
+    height: 280px !important;
+    width:290px;
+    box-shadow: 0 0 10px var(--other-color);
+}
+.about img:hover{
+    transform: scale(1.06);
+}
+.about .text-about span{
+    color: black;
+    font-weight: 400;
+}
+.about .text-about{
+  margin-left: 500px;
+  padding-bottom: 90px;
+  margin-top: -196px;
+  text-wrap: balance;
+  margin-right:3px;
+}
+.about .text-about p{
+    font-weight: 400;
+    padding-top:20px;
+    color: black;
+    font-size: calc(100% + 3px);
+}
+.text-about p:hover{
+    transform: scale(1.03);
+}
+.about h2{
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+.about h2:hover{
+    transform: scale(1.04);
+}
+.about span{
+    color: var(--main-color);
+}
+.serviecs{
+    background-color: var(--main-background);
+}
+.serviecs span{
+    color: var(--main-color);
+}
+.serviecs .section{
+    margin-left: -1%;
+}
+.serviecs .section div{
+    border-color:var(--other-color) !important;
+    box-shadow: 1px 1px 5px var(--main-color);
+}
+.serviecs .section div p{
+    color: rgba(255, 255, 255, 0.596);
+}
+.serviecs .section div:hover{
+    transform: scale(1.05);
+}
+.serviecs h2:hover{
+   transform: scale(1.02);
+}
+.portfolio h2 span{
+    color: var(--main-color);
+}
+.portfolio h2:hover{
+    transform:scale(1.05);
+}
+.portfolio{
+    background-color: var(--second-bg);
+}
+.container-2 {
+    width:100%;
+    padding:50px;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px;
+}
+.gallery img{
+    width:100%;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     transition: 0.3s ease;
+}
+.gallery img:hover{
+   transform:scale(1.1)
+}
+.btn-more span{
+   text-decoration: underline;
+}
+.btn-more{
+   background-color: #13bbff;
+   position: relative;
+   overflow: hidden;
+   left: 40%;
+   box-shadow: 0 0 6px var(--other-color);
+}
+.btn-more a:hover{
+ color:#13bbff;
+}
+.btn-more:hover{
+    transform: scale(1.01);
+    transition-duration: 3s;
+    transition-property: all;
+    background-color: #22282faf;
+    color:white;
+    box-shadow: 0 0 10px var(--other-color);
+}
+.contact {
+    background-image: linear-gradient(to right, var(--main-background), var(--main-color));
+    color: white;
+    overflow: hidden;
+}
+.contact h2 span{
+    color:#13bbff
+}
+.contact .forms label{
+    display: block;
+    padding-bottom:5px;
+}
+.contact .forms {
+    /* margin-left: 490px; */
+    position:relative;
+    left: 40%;
+    padding-bottom: 20px;
+}
+.contact .forms ::placeholder{
+    color:rgba(255, 255, 255, 0.568);
+}
+.contact .forms input{
+    width: 370px;
+    margin-bottom:10px;
+    border-radius: 20px;
+    background-color:#22282f;
+    box-shadow: 0 0 5px var(--other-color);
+    border: none;
+    caret-color: #13bbff;
+}
+.contact .forms textarea{
+    width: 370px;
+    margin-bottom:10px;
+    border-radius: 20px;
+    background-color:#22282f;
+    box-shadow: 0 0 5px var(--other-color);
+    border: none;
+    caret-color: white;
+}
+
+.contact .forms button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    color: rgba(255, 255, 255, 0.87);
+    margin-left: 70px;
+    border-radius: 15px;
+    padding-bottom: 2px;
+    background-color:#22282f;
+    box-shadow: 0 0 5px var(--other-color);
+    border: none;
+    /* margin-bottom: 20px; */
+}
+.footer{
+    background-color: var(--second-bg);
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 14px;
+}
+#top-scroll{
+    background-color:yellow;
+    width: 30px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    color: black;
+    margin: 10px;
+    display: none;
+}
+/* @media 1023 */
+
+@media (max-width: 1023px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header{ 
+        background-image: url(../images/Final-backgeound9.webp);
+        width:100%;
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 1px black;
+        overflow: hidden;
+    }
+    .spana{
+        color: white !important;
+    }
+    i{
+        color:var(--main-color);
+        border-radius:10px;
+        border-color:var(--second-bg) !important;
+        position: absolute;
+        overflow: hidden;
+        bottom: 55%;
+        right: 90%;
+    }
+    i:hover{
+    box-shadow:0 0 4px var(--other-color)
+    }
+
+    .buttons{
+        bottom:84%;
+        right: 40%;
+    }
+    .buttons a{
+       margin-left:-655px !important;
+       font-size: 12px;
+    }
+    .buttons a:hover{
+        box-shadow: 0 0 5px var(--main-color) !important;
+        background-color: var(--main-color);
+        color: black;
+        font-family: 'Inter';
+    }
+    .btn-2{
+        display: none;
+    }
+    .main-h p:first-of-type{
+        transform: translate(-58%, -30%);
+    }
+    .main-h p{ 
+        transform: translate(-58%, -1%);
+    }
+    .main-h span{
+       font-size: 30px;
+    }
+    .main-h h3{
+        transform: translate(-42%, 0%);
+        font-size: 14px;
+        text-wrap:wrap ;
+    }
+    .about .image{
+       transform: translate(-54%, 10%);
+    }
+    .about .text-about{
+        margin-left:15px;
+        margin-top: 50px;
+    }
+    .about .text-about p{
+        font-size: 17px;
+    }
+    .serviecs{
+        overflow: hidden;
+     }
+    .serviecs .section{
+       flex-direction: column !important;
+    }
+    .serviecs .section div{
+       margin: 10px;
+       padding: 30px;
+    }
+    .serviecs .section p{
+        margin-top: 5px !important;
+    }
+    .serviecs .section h2{
+        font-size: 20px !important;
+    }
+    .portfolio{
+        overflow: hidden;
+    }
+    .portfolio .gallery{
+        display:grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 40px;
+    }
+    .contact{
+        color: white;
+        overflow: hidden;
+        
+    }
+    .contact .forms{
+        margin-left: 8px;
+        position: relative;
+        overflow: hidden;
+        left: 18%;
+        top: 50%;
+    }
+    .contact .forms input{
+        width: 250px;
+        /* text-align: center; */
+        /* transform: translate(23%); */
+    }
+    .contact .forms textarea{
+        width: 270px;
+        /* transform: translate(19%); */
+        border-radius: 10px;
+    }
+    .forms label{
+        /* text-align: center; */
+        font-size: 14px;
+    }
+    .btn-sub{
+        position: relative;
+        right: 18%;
+        top: 50%;
+    }
+    .btn-more{
+        /* transform: translate(18%, 40%); */
+        position: relative;
+        left: 15%;
+        bottom: 30%;
+        font-size:12px;
+        padding: 4px !important;
+    }
+}
+
+/* Media 692px */
+
+@media (max-width: 692px) {
+    body{
+        font-size: 12px;
+    }
+
+    .main-h{
+        font-size: 0.8em;
+    }
+} 
+
+/* Media 300px */
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
