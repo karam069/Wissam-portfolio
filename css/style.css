@@ -330,7 +330,7 @@ box-shadow:0 0 4px var(--other-color);
         border-color:var(--second-bg) !important;
         position: absolute;
         overflow: hidden;
-        bottom: 58%;
+        bottom: 50%;
         right: 90%;
     }
     i:hover{
