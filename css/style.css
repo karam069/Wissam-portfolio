@@ -69,7 +69,7 @@ i{
     color:var(--main-color);
     border-radius:10px;
     border-color:var(--second-bg) !important;
-    right: 87%;
+    right: 88%;
     bottom:40%;
     z-index: 1;
     position: absolute;
@@ -286,6 +286,9 @@ box-shadow:0 0 4px var(--other-color);
     height: 50px;
     padding-top: 14px;
 }
+.footer a{
+    text-decoration: underline;
+}
 #top-scroll{
     background-color:yellow;
     width: 30px;
@@ -318,7 +321,7 @@ box-shadow:0 0 4px var(--other-color);
         box-shadow: 0 0 1px black;
         overflow: hidden;
     }
-    .spana{
+    .span a{
         color: white !important;
     }
     i{
@@ -327,7 +330,7 @@ box-shadow:0 0 4px var(--other-color);
         border-color:var(--second-bg) !important;
         position: absolute;
         overflow: hidden;
-        bottom: 55%;
+        bottom: 58%;
         right: 90%;
     }
     i:hover{
@@ -335,7 +338,7 @@ box-shadow:0 0 4px var(--other-color);
     }
 
     .buttons{
-        bottom:84%;
+        bottom:83%;
         right: 40%;
     }
     .buttons a{
