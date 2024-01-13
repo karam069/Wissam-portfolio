@@ -2,7 +2,7 @@ let topBtn = document.getElementById("top-scroll");
 let a1 = document.getElementById("a1");
 
 window.onscroll = function(){
-    if(window.scrollY >= 1400){
+    if(window.scrollY >= 800){
         topBtn.style.display = "block";
     } 
     else{
